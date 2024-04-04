@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240404-1225-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.0"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="Vitaliys-Laptop"
+	OSRelease="14.4.1"
+	OSVersion="23E224"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="10"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="32768"
+	LogicalProcessorsPerPhysical="10"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Apr 04 17:05 EEST</StartDateTime>
+		<StartTestTime>1712239546</StartTestTime>
+		<TestList>
+			<Test>./test/ExampleTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ExampleTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/ExampleTests</FullName>
+			<FullCommandLine>/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/test/ExampleTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.232373</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/test/ExampleTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUT1PwzAQ3f0rrlszJC7sDBVUDKiAknaKIuSGI3Ll+IztFPj32HUVEQSo4k3Pvnf37qMctJa6g15IPc/gxVIPfOvQOn6QXij54WhHihtLe2y94yaESAvFW2P4PtDcCBv0vCPqFHp0/it1tuVdZE/RoWhbVl+NaKA82V9C1Ljkf3F8gBukx4LV+YgGbhXthEpx1AdpSfeogxZ9Pphv4knR1bvojcJN/GE1lNt7OKKZRIr18ppVXlgfuxrMjG1Q2Mif6U3PQmLCw90PiTBfQO+yP6pXr4Ow+D+DlDt6nDVoUoOncMmMnbdKH/rJYzPTS/16IbBCF1OjMMTjsqpWN3EBp8SCfQIxScaX====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 04 17:05 EEST</EndDateTime>
+		<EndTestTime>1712239546</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
