@@ -42,3 +42,10 @@ TEST_F(ExampleTests, Square)
   int expectedResult = GetX() * GetX();
   EXPECT_EQ(expectedResult, Square(GetX()));
 }
+
+TEST(ExampleTests2, Square)
+{
+  int x = 5;
+  int expectedResult = 5 * 5;
+  EXPECT_EQ(expectedResult, Square(x));
+}

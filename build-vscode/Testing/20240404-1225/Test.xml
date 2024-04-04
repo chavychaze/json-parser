@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="0"
 	>
 	<Testing>
-		<StartDateTime>Apr 04 17:05 EEST</StartDateTime>
-		<StartTestTime>1712239546</StartTestTime>
+		<StartDateTime>Apr 04 17:09 EEST</StartDateTime>
+		<StartTestTime>1712239764</StartTestTime>
 		<TestList>
 			<Test>./test/ExampleTests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/test/ExampleTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.232373</Value>
+					<Value>0.275958</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -51,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJydUT1PwzAQ3f0rrlszJC7sDBVUDKiAknaKIuSGI3Ll+IztFPj32HUVEQSo4k3Pvnf37qMctJa6g15IPc/gxVIPfOvQOn6QXij54WhHihtLe2y94yaESAvFW2P4PtDcCBv0vCPqFHp0/it1tuVdZE/RoWhbVl+NaKA82V9C1Ljkf3F8gBukx4LV+YgGbhXthEpx1AdpSfeogxZ9Pphv4knR1bvojcJN/GE1lNt7OKKZRIr18ppVXlgfuxrMjG1Q2Mif6U3PQmLCw90PiTBfQO+yP6pXr4Ow+D+DlDt6nDVoUoOncMmMnbdKH/rJYzPTS/16IbBCF1OjMMTjsqpWN3EBp8SCfQIxScaX====</Value>
+					<Value encoding="base64" compression="gzip">eJydUj1PwzAQ3f0rrlszJIYwM1RQMSA+lLRTFCE3mMiV4zO2U+DfY9elaoBEiFt8tt+79+7soldKqBY6JtQ8gReDHdC15cbSnXBMig+LG5RUG9zyxlmq/RUqJmmjNd36NNXMeDxtEVvJHbfuNLWmoW3InoJC1jSkujxGDcVB/gICxkb9fL8B2wu/ZqRKj1HDjcQNkxHA1U4YVB1XHsxd2utv4Py06vKddVryVTghFRTre9hHPbjJ7hZXpHTMuGCr1zOy4syE/Bnf1MwTYzzc/kKE+Rl0NpmoXr72zPD/CUTuUeNPjUY0OPRPmZAh6TxO8QcnH/effzUw6jKfsjmqOGVz7MWdH1saZjb8UeM/CQxT2VDJt/G4KMvldWj0wMzIJ1lr+Rk=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Apr 04 17:05 EEST</EndDateTime>
-		<EndTestTime>1712239546</EndTestTime>
+		<EndDateTime>Apr 04 17:09 EEST</EndDateTime>
+		<EndTestTime>1712239765</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
