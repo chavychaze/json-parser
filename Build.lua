@@ -1,4 +1,4 @@
--- Lua script to automate the setup, build, and test process
+-- build-and-test.lua
 
 -- Function to execute shell commands
 function execute_command(command)
@@ -30,4 +30,3 @@ print("Running tests...")
 execute_command(test_command)
 
 print("Done.")
-
