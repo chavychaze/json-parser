@@ -1,9 +1,7 @@
 #include "../Example.hpp"
-
 #include <gtest/gtest.h>
 
-struct ExampleTests
-    : public ::testing::Test
+struct ExampleTests : public ::testing::Test
 {
   int *x;
 
@@ -31,9 +29,7 @@ TEST_F(ExampleTests, MAC)
   int sum = 100;
   int oldSum = sum;
   int expectedNewSum = oldSum + GetX() * y;
-  EXPECT_EQ(
-      expectedNewSum,
-      MAC(GetX(), y, sum));
+  EXPECT_EQ(expectedNewSum, MAC(GetX(), y, sum));
   EXPECT_EQ(expectedNewSum, sum);
 }
 

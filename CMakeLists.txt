@@ -1,24 +1,35 @@
 cmake_minimum_required(VERSION 3.29)
 
-set(This Example)
+project(ExampleProject)
 
-project(${This} C CXX)
+# Include Google Test
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG release-1.11.0
+)
+FetchContent_MakeAvailable(googletest)
 
-set(CMAKE_C_STANDARD 99)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_POSITION_INDEPEDENT_CODE ON)
+# Add the Example library
+add_library(Example Example.cpp)
+
+# Add the test executable
+set(This ExampleTests)
+set(Sources
+  test/ExampleTests.cpp  # Correct path to ExampleTests.cpp
+)
+
+add_executable(${This} ${Sources})
+set_target_properties(${This} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/test)
+target_include_directories(${This} PRIVATE ${gtest_SOURCE_DIR}/include ${gtest_BINARY_DIR})
+target_link_libraries(${This} PUBLIC
+  gtest_main
+  Example
+)
 
 enable_testing()
-
-add_subdirectory(googletest)
-
-set(Headers
-  Example.hpp
+add_test(
+  NAME ${This}
+  COMMAND ${CMAKE_BINARY_DIR}/test/${This}
 )
-set(Sources
-  Example.cpp
-)
-
-add_library(${This} STATIC ${Sources} ${Headers})
-
-add_subdirectory(test)

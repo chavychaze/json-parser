@@ -2,18 +2,17 @@
   "configurations": [
     {
       "name": "Mac",
-      "includePath": ["${workspaceFolder}/**"],
-      "defines": [],
-      "macFrameworkPath": [
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
-        "/System/Library/Frameworks",
-        "/Library/Frameworks"
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/_deps/googletest-src/googletest/include", // Adjust the path as necessary
+        "${workspaceFolder}/_deps/googletest-build/googletest/include" // Adjust the path as necessary
       ],
+      "defines": [],
+      "macFrameworkPath": [],
       "compilerPath": "/usr/bin/clang",
-      "cStandard": "c17",
+      "cStandard": "c11",
       "cppStandard": "c++17",
-      "intelliSenseMode": "macos-clang-arm64",
-      "configurationProvider": "ms-vscode.cmake-tools"
+      "intelliSenseMode": "macos-clang-x64"
     }
   ],
   "version": 4

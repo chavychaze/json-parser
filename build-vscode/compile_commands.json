@@ -1,38 +1,38 @@
 [
 {
   "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode",
-  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/Example.dir/Example.cpp.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/Example.cpp",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Example.dir/Example.cpp.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/Example.cpp",
   "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/Example.cpp",
   "output": "CMakeFiles/Example.dir/Example.cpp.o"
 },
 {
-  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/googletest/googlemock",
-  "command": "/usr/bin/clang++  -I/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock/include -I/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock/src/gmock-all.cc",
-  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock/src/gmock-all.cc",
-  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-},
-{
-  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/googletest/googlemock",
-  "command": "/usr/bin/clang++  -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock/src/gmock_main.cc",
-  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googlemock/src/gmock_main.cc",
-  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-},
-{
-  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/googletest/googletest",
-  "command": "/usr/bin/clang++  -I/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/include -I/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/src/gtest-all.cc",
-  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/src/gtest-all.cc",
-  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-},
-{
-  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/googletest/googletest",
-  "command": "/usr/bin/clang++  -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/src/gtest_main.cc",
-  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/src/gtest_main.cc",
-  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-},
-{
-  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/test",
-  "command": "/usr/bin/clang++  -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/googletest/googletest -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/test/ExampleTests.cpp",
+  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode",
+  "command": "/usr/bin/clang++  -I/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-build/googletest -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/ExampleTests.dir/test/ExampleTests.cpp.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/test/ExampleTests.cpp",
   "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/test/ExampleTests.cpp",
-  "output": "test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o"
+  "output": "CMakeFiles/ExampleTests.dir/test/ExampleTests.cpp.o"
+},
+{
+  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++  -I/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock/include -I/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++  -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++  -I/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/include -I/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++  -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/include -isystem /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/Users/vitaliysobol/projects/personal/cpp/json-parser/build-vscode/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 }
 ]
