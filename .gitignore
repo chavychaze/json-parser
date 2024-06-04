@@ -1,5 +1,6 @@
 # Build directories
 /build/
+/build-vscode/
 CMakeFiles/
 CMakeCache.txt
 
@@ -39,7 +40,7 @@ CMakeLists.txt.user.*
 *.app
 
 # Google Test and FetchContent
-/googletest
+/googletest/
 /_deps
 
 # Temporary files
@@ -71,3 +72,5 @@ CMakeLists.txt.user.*
 # Windows specific files
 Thumbs.db
 Desktop.ini
+
+Makefile
