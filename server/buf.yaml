@@ -1,0 +1,26 @@
+version: v1
+name: buf-pull-request
+
+deps:
+  - buf.build/googleapis/googleapis
+
+lint:
+  use:
+    - DEFAULT
+  except:
+    - PACKAGE_DIRECTORY_MATCH
+  ignore:
+    - PACKAGE_VERSION_SUFFIX
+  enum_zero_value_suffix: _UNSPECIFIED
+  rpc_allow_same_request_response: false
+  rpc_allow_google_protobuf_empty_requests: false
+  rpc_allow_google_protobuf_empty_responses: false
+  service_suffix: Service
+
+breaking:
+  use:
+    - FILE
+  ignore_unstable_packages: false
+  except: []
+  ignore: []
+  ignore_only: {}

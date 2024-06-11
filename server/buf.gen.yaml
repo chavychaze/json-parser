@@ -1,0 +1,13 @@
+version: v1
+plugins:
+  - name: cpp
+    out: proto/generated
+    opt:
+      - target=cpp
+      - useExactTypes=true
+      - initializeFieldsAsUndefined=false
+      - exportCommonSymbols=false
+      - unknownFields=true
+      - usePrototypeForDefault=true
+      - outputExtensions=true
+      - disableProto2Optionals=true

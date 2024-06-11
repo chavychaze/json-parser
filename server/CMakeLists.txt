@@ -1,35 +1,34 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.10)
+project(DeFiServer)
 
-project(ExampleProject)
+set(CMAKE_CXX_STANDARD 17)
 
-# Include Google Test
-include(FetchContent)
-FetchContent_Declare(
-  googletest
-  GIT_REPOSITORY https://github.com/google/googletest.git
-  GIT_TAG release-1.11.0
-)
-FetchContent_MakeAvailable(googletest)
+find_package(Protobuf REQUIRED)
+find_package(gRPC REQUIRED)
 
-# Add the Example library
-add_library(Example Example.cpp)
+include_directories(${PROTOBUF_INCLUDE_DIRS})
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
+include_directories(${gRPC_INCLUDE_DIRS})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/proto/generated)
 
-# Add the test executable
-set(This ExampleTests)
-set(Sources
-  tests/ExampleTests.cpp  # Correct path to ExampleTests.cpp
+set(PROTO_SRCS
+    ${CMAKE_CURRENT_SOURCE_DIR}/proto/generated/defi.pb.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/proto/generated/defi.grpc.pb.cc
 )
 
-add_executable(${This} ${Sources})
-set_target_properties(${This} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/tests)
-target_include_directories(${This} PRIVATE ${gtest_SOURCE_DIR}/include ${gtest_BINARY_DIR})
-target_link_libraries(${This} PUBLIC
-  gtest_main
-  Example
+set(PROTO_HDRS
+    ${CMAKE_CURRENT_SOURCE_DIR}/proto/generated/defi.pb.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/proto/generated/defi.grpc.pb.h
 )
 
-enable_testing()
-add_test(
-  NAME ${This}
-  COMMAND ${CMAKE_BINARY_DIR}/tests/${This}
+add_executable(DeFiServer
+    src/main.cpp
+    src/handlers/handler.cpp
+    ${PROTO_SRCS}
+)
+
+target_link_libraries(DeFiServer
+    ${PROTOBUF_LIBRARIES}
+    ${gRPC_LIBRARIES}
+    ${gRPC_PROTOBUF_LIBRARIES}
 )
