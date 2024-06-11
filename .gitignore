@@ -72,5 +72,3 @@ CMakeLists.txt.user.*
 # Windows specific files
 Thumbs.db
 Desktop.ini
-
-Makefile
