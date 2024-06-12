@@ -1,0 +1,10 @@
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/CMakeFiles/main.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/CMakeFiles/package.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/CMakeFiles/package_source.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/CMakeFiles/edit_cache.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/CMakeFiles/rebuild_cache.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/proto/CMakeFiles/proto.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/proto/CMakeFiles/package.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/proto/CMakeFiles/package_source.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/proto/CMakeFiles/edit_cache.dir
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/proto/CMakeFiles/rebuild_cache.dir

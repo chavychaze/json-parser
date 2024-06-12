@@ -1,0 +1,14 @@
+# Target labels
+ grpc-populate
+# Source files and their labels
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/CMakeFiles/grpc-populate
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/CMakeFiles/grpc-populate.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/CMakeFiles/grpc-populate-complete.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-build.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-configure.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-download.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-install.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-mkdir.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-patch.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-test.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-update.rule

@@ -1,0 +1,14 @@
+# Target labels
+ protobuf-populate
+# Source files and their labels
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate-complete.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-build.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-configure.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-download.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-install.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-mkdir.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-patch.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-test.rule
+/Users/vitaliysobol/projects/personal/cpp/json-parser/server/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/protobuf-populate-update.rule

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+2310ebebe58dbe05ff25f4a1c6961014 proto/defi.pb.h
