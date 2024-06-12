@@ -4,11 +4,12 @@
       "name": "Mac",
       "includePath": [
         "${workspaceFolder}/**",
-        "${workspaceFolder}/_deps/googletest-src/googletest/include", // Adjust the path as necessary
-        "${workspaceFolder}/_deps/googletest-build/googletest/include" // Adjust the path as necessary
+        "${workspaceFolder}/server/proto/generated",
+        "${workspaceFolder}/server/build/_deps/grpc-src/include",
+        "${workspaceFolder}/server/build/_deps/grpc-src/third_party/protobuf/src"
       ],
       "defines": [],
-      "macFrameworkPath": [],
+      "macFrameworkPath": ["/System/Library/Frameworks", "/Library/Frameworks"],
       "compilerPath": "/usr/bin/clang",
       "cStandard": "c11",
       "cppStandard": "c++17",

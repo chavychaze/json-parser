@@ -1,0 +1,9 @@
+# Build directories
+build/
+build-vscode/
+target/
+CMakeFiles/
+
+# Generated files
+CMakeCache.txt
+buf.lock

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package defi;
+
+message Request {
+    string query = 1;
+}
+
+message Response {
+    string result = 1;
+}
+
+service DeFiService {
+    rpc Query(Request) returns (Response);
+}

@@ -1,0 +1,10 @@
+[package]
+name = "defi_client"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+iced = "0.12.1"
+reqwest = { version = "0.12.4", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+prost = "0.12.6"
